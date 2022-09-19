@@ -172,3 +172,9 @@ Cliquer sur le diagramme pour l'atteindre :
 Cliquer sur le diagramme pour l'atteindre : 
 
 [![diagrammeDeClasse.drawio.png](./UML/DiagrammeDeSequence.drawio.png)](./UML/DiagrammeDeSequence.drawio.png)
+
+# Source
+
+https://ineumann.developpez.com/tutoriels/merise/initiation-merise/
+https://creately.com/blog/fr/uncategorized-fr/tutoriel-sur-les-diagrammes-de-classe/
+http://grand.patrice.free.fr/net/courscharp/chap4/
