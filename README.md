@@ -66,3 +66,8 @@
 Cliquer sur le MCD pour l'atteindre :
 
 [![MCD.png](./databaseDesign/MCD.png)](./databaseDesign/MCD.png)
+
+## Modèle Logique des Données
+Cliquer sur le MLD pour l'atteindre : 
+
+[![MLD.png](./databaseDesign/MLD.jpg)](./databaseDesign/MLD.jpg)
