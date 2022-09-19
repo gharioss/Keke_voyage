@@ -161,17 +161,17 @@ CREATE TABLE stopover(
 ## Diagramme use case
 Cliquer sur le diagramme pour l'atteindre : 
 
-[![diagrammeUseCase.png](./UML/UML_cas_utilisation.drawio.png)](./UML/UML_cas_utilisation.drawio.png)
+[![UML_cas_utilisation.drawio.png](./UML/UML_cas_utilisation.drawio.png)](./UML/UML_cas_utilisation.drawio.png)
 
 ## Diagramme de classe
 Cliquer sur le diagramme pour l'atteindre : 
 
-[![UML_class.drawio.drawio.png](./UML/UML_class.drawio.drawio.png)](./UML/UML_class.drawio.drawio.png)
+[![UML_class.drawio.png](./UML/UML_class.drawio.png)](./UML/UML_class.drawio.png)
 
 ## Diagramme de séquence
 Cliquer sur le diagramme pour l'atteindre : 
 
-[![UML_séquence.drawio.drawio.png](./UML/UML_séquence.drawio.drawio.png)](./UML/UML_séquence.drawio.drawio.png)
+[![UML_séquence.drawio.png](./UML/UML_séquence.drawio.png)](./UML/UML_séquence.drawio.png)
 
 # Source
 
