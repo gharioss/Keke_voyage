@@ -143,7 +143,7 @@ Cliquer sur le MCD pour l'afficher :
 
 ## Modèle Logique des Données
 
-\***\*Modèle Logique des Données textuel:\*\***
+**Modèle Logique des Données textuel:**
 
 **Company** = (**id_company** COUNTER, iata_code VARCHAR(10), name VARCHAR(50));  
 **Country** = (**id_country** COUNTER, name VARCHAR(50));  
@@ -158,7 +158,13 @@ Cliquer sur le MLD pour l'afficher :
 
 [![MLD.png](./databaseDesign/MLD.jpg)](./databaseDesign/MLD.jpg)
 
-## Modèle Physique des Données
+## Modèle Physique des Données :
+Cliquer sur le MPD pour l'afficher :
+
+[![MPD.png](./databaseDesign/MPD.png)](./databaseDesign/MPD.png)
+
+
+### Script SQL :
 
 ```sql
 CREATE TABLE Company(
