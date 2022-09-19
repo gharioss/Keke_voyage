@@ -1,24 +1,35 @@
-| Nom                     | Type           | Désignation                                    |
-| ----------------------- | -------------- | ---------------------------------------------- |
-| Nom_compagnie           | AlphaNumérique | Nom de la compagnie aérienne                   |
-| Num_vol                 | Numérique      | Id destination du vol                          |
-| Num_billet              | Numérique      | Réservation fait par le client                 |
-| Réservation             | AlphaNumérique | Réservation fait par le client                 |
-| Ouverture_réservation   | Boolean        | Compagnie permettant la réservation ou non     |
-| Annulation_vol          | Boolean        | Compagnie déside de l'annulation du vol ou non |
-| Anunulation_réservation | Boolean        | Client annulant sa réservation ou non          |
-| Aéroport                | AlphaNumérique | Nom de l'aéroport                              |
-| Date_départ             | Date           |                                                |
-| Date_arrivé             | Date           |                                                |
-| Nom_ville               | AlphaNumérique | Ville de l'aéroport                            |
-| Nom_pays                | Alphabétique   | Nom du pays                                    |
-| Confirmation_vol        | Boolean        |                                                |
-| Départ_escale           | Date/Heure     | Départ de l'escale                             |
-| Arrivé_escale           | Date/Heure     | Arrivée de l'escale                            |
-| Email_contact           | AlphaNumérique | Email de contact du réservateur                |
-| Nom_passager            | Alphabétique   | Nom du passager                                |
-| Prénom_passager         | Alphabétique   | Prénom du passager                             |
-| Âge_passager            | Numérique      | Âge du passager                                |
-| Passeport_passager      | AlphaNumérique | Passport du passager                           |
-| Date_réservation        | Date/Heure     |                                                |
-| Prix_réservation        | Numérique      | Prix de la réservation                         |
+# Conception de la base de données
+
+## Règles de gestion
+
+### Client
+- Peu reserver pour un ou plusieur passager
+
+
+### Réservation
+- Concerne qu'un seul vol et un seul passager
+- peu être annuler par le client
+- un numero de résevation
+- téléphone
+- nom
+- prénom
+- l'agence doit confirmer la réservation
+
+### Vol
+- Le vol contient un numéro de vol
+- Contiens un aéroport de départ, une date et une heure
+- Contiens un aéroport d'arrivée, une date et une heure
+- Contiens un ou plusieurs passagers
+- Peut-être réservé ou non
+- Peut faire des escales dans un aéroport
+- Est un trajet du point de départ au point final
+
+### Aéroport
+- Ce trouve dans une ville
+
+### Escale
+- Se fait a un aéroport
+- Contiens une date et une heure d'arrivée
+- Contiens une date et une heure de départ
+
+
